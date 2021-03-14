@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.12
 WORKDIR /root
 COPY run.sh /root
 COPY install.sh /root
